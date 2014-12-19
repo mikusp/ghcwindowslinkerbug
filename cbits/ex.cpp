@@ -1,8 +1,5 @@
 #include <cstdio>
 
-#include "ex.h"
-
-
-void foo() {
+extern "C" void foo() {
     std::printf("Test\n");
 }
