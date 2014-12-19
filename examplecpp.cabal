@@ -12,5 +12,4 @@ library
   c-sources:           cbits/ex.cpp
   include-dirs:        include
   includes:            ex.h
-  ghc-options:         -pgml g++ -optl-stdc++
-  cc-options:          -std=c++0x
+  cc-options:          -std=c++0x -fPIC
